@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vergleich von KI-Musik-Tools</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+
+        <!-- Header-Bereich -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                KI-Musik-Tools im Vergleich
+            </h1>
+            <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-300">
+                Entdecke die besten KI-gestützten Werkzeuge zur Musikgenerierung. Finde das perfekte Tool für deine kreativen Projekte, vom Hobbymusiker bis zum Profi.
+            </p>
+        </header>
+
+        <!-- Vergleichstabelle -->
+        <div class="overflow-x-auto bg-gray-800 rounded-lg shadow-2xl">
+            <table class="min-w-full divide-y divide-gray-700">
+                <thead class="bg-gray-700/50">
+                    <tr>
+                        <th scope="col" class="px-6 py-4 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">Tool</th>
+                        <th scope="col" class="px-6 py-4 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">Hauptfunktionen</th>
+                        <th scope="col" class="px-6 py-4 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">Zielgruppe</th>
+                        <th scope="col" class="px-6 py-4 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">Preis-Modell</th>
+                        <th scope="col" class="px-6 py-4 text-left text-xs font-semibold text-gray-300 uppercase tracking-wider">Besonderheiten</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-700">
+                    <!-- Eintrag 1: Suno AI -->
+                    <tr class="hover:bg-gray-700/40 transition-colors duration-200">
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-bold text-purple-400">Suno AI</div>
+                            </div>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">Text-zu-Musik, Gesang & Instrumente</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">Einsteiger, Songwriter</td>
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-900 text-green-300">Kostenlos</span>
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-900 text-blue-300">Abo</span>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">Erzeugt beeindruckend kohärente Songs inklusive KI-generiertem Gesang. Sehr einfach zu bedienen.</td>
+                    </tr>
+                    
+                    <!-- Eintrag 2: Udio -->
+                    <tr class="hover:bg-gray-700/40 transition-colors duration-200">
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-bold text-pink-400">Udio</div>
+                            </div>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">Text-zu-Musik, Genre-Mix, Song-Erweiterung</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">Musiker, Kreative</td>
+                        <td class="px-6 py-4 whitespace-nowrap">
+                             <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-900 text-green-300">Kostenlos (Beta)</span>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">Sehr hohe Audioqualität und musikalische Komplexität. Ermöglicht das Erweitern und Remixen von Tracks.</td>
+                    </tr>
+
+                    <!-- Eintrag 3: AIVA -->
+                    <tr class="hover:bg-gray-700/40 transition-colors duration-200">
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-bold text-teal-400">AIVA</div>
+                            </div>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">Komposition für Film/Spiele, Stil-Imitation, MIDI-Export</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">Komponisten, Profis</td>
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-900 text-green-300">Kostenlos</span>
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-900 text-blue-300">Abo</span>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">Spezialisiert auf klassische und orchestrale Musik. Bietet viel Kontrolle und Exportoptionen für die Weiterverarbeitung.</td>
+                    </tr>
+
+                    <!-- Eintrag 4: Soundraw -->
+                    <tr class="hover:bg-gray-700/40 transition-colors duration-200">
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-bold text-yellow-400">Soundraw</div>
+                            </div>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">Stimmungsbasierte Generierung, Track-Anpassung</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">Content Creator, Videomacher</td>
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-900 text-green-300">Kostenlose Demo</span>
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-900 text-blue-300">Abo</span>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">Sehr schnell und einfach lizenzfreie Hintergrundmusik erstellen. Länge und Instrumentierung sind leicht anpassbar.</td>
+                    </tr>
+
+                    <!-- Eintrag 5: Amper Music -->
+                    <tr class="hover:bg-gray-700/40 transition-colors duration-200">
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-bold text-red-400">Amper Music</div>
+                            </div>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">API-Integration, schnelle Soundtrack-Erstellung</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">Unternehmen, Entwickler</td>
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-600 text-gray-200">Unternehmens-Lizenz</span>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">Fokus auf Skalierbarkeit und Integration in andere Plattformen (jetzt Teil von Shutterstock).</td>
+                    </tr>
+                    
+                    <!-- Eintrag 6: Boomy -->
+                    <tr class="hover:bg-gray-700/40 transition-colors duration-200">
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-bold text-indigo-400">Boomy</div>
+                            </div>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">Song-Generierung, Veröffentlichung auf Streaming-Plattformen</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-300">Hobbyisten, Experimentierfreudige</td>
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-900 text-green-300">Kostenlos</span>
+                            <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-900 text-blue-300">Abo</span>
+                        </td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-300">Ermöglicht es, KI-generierte Songs direkt auf Spotify, Apple Music etc. zu veröffentlichen und Einnahmen zu erzielen.</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12 text-gray-500 text-sm">
+            <p>&copy; 2024 KI-Musik-Vergleich. Alle Angaben ohne Gewähr.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
